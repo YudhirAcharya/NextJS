@@ -7,7 +7,8 @@ import React from "react";
 
 const User = async ({ params }: { params: { user: string } }) => {
   //access the user parameter from params
-  //you can use this parameter to fetch user-specific data or display user information
+  //you can use this parameter to fetch use
+  // r-specific data or display user information
   const { user } = await params;
   console.log(user);
   return <div>User: {user}</div>;
